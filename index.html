@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
     <title>Portfolio</title>
 </head>
@@ -12,45 +14,61 @@
 <body>
 
     <header class="header">
-        <nav class="nav">
-            <a href="#aboutme">About me</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-            <a href="#skills">Skills</a>
+        <ul class="nav">
+            <li class="navitem"><a href="#aboutme">About me</a></li>
+            <li class="navitem"> <a href="#projects">Projects</a></li>
+            <li class="navitem"> <a href="/contact.html">Contact</a></li>
+            <li class="navitem"><a href="#skills">Skills</a></li>
 
-        </nav>
+        </ul>
     </header>
     <main class="main">
-        <section>
-            <div class="aboutme" id="aboutme">
-                <p>Hi ,my name is Anastas.
-                    Im a front-end developer based in London who likes learning new things about web development.<br>
-                    My background is studies in automation engineering.I always liked to build <br>
-                    things and programming so I decided to learn web development.
-                </p>
-            </div>
-        </section>
-        <section>
-            <div class="projects" id="projects">
-                <h2>Projects</h2>
-            </div>
-        </section>
-        <section>
-            <div class="skills">
-                <h2>Skills</h2>
+        <section class="aboutme">
+            <img src="1657629126573.jpg" alt="my picture">
 
-                <i class="fab fa-html5"></i>
-                <i class="fab fa-js"></i>
-                <i class="fab fa-css3"></i>
+            <p>
+                Hi ,my name is Anastas. <br>
+                I am a front-end developer based in London who likes learning new things <br>
+                about web development.My background is studies in automation engineering. <br>
+                I always liked to build things and programming so I decided to learn web development.</p>
+        </section>
+
+        <section class="projects" id="projects">
+            <h2>Projects</h2>
+        </section>
+
+        <section class="skills" id="skills">
+            <div class="icons">
+                <h2>Skills</h2>
+                <i class="fab fa-html5 fa-3x"></i>
+                <i class="fab fa-css3 fa-3x"></i>
+                <i class="fab fa-js fa-3x"></i>
 
             </div>
 
             <div class="tools">
                 <h2>Tools</h2>
-                <i class="fab fa-git"></i>
+                <i class="fab fa-git fa-3x"></i>
             </div>
         </section>
     </main>
+    <footer>
+
+        <div class="icons">
+            <a href="https://www.linkedin.com/in/anastas-odyssea-316659187/?originalSubdomain=uk">
+                <i class="fab fa-linkedin fa-2x f"></i>
+            </a>
+            <a href="https://twitter.com/anastasodyssea">
+                <i class="fab fa-twitter fa-2x"></i>
+            </a>
+            <a href="https://github.com/AnastasOdyssea">
+                <i class="fab fa-github fa-2x"></i>
+            </a>
+        </div>
+        <p class="myname">Made by Anastas Odyssea</p>
+    </footer>
+
+
     <script src="https://kit.fontawesome.com/f34947545d.js" crossorigin="anonymous"></script>
 
 </body>

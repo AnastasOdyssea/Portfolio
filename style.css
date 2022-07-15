@@ -1,0 +1,70 @@
+body{
+    background-image: linear-gradient(to right top, #54404b, #4d3b4a, #453649, #3b3248,
+     #2f2e47, #333b55, #364862, #3a566e, #57798c, #799eaa, #9fc4c8, #c9eae8);
+}
+
+.nav {
+    display:flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav li{
+   list-style-type: none;
+   
+}
+a{
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+    transition: font-size 700ms 100ms;
+    }
+a:hover{
+   font-size: 25px;
+}
+.aboutme{
+position:absolute;
+top: 40px;
+left:300px;
+font-family: 'Roboto', sans-serif;
+font-size: 22px;
+}
+
+img{
+    height:200px;
+    border-radius: 100px;
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+    
+}
+.projects{
+    margin-top: 450px;
+    text-align: center;
+}
+
+.skills{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.icons{
+   word-spacing: 100px;
+}
+.tools{
+    margin-top: 50px;
+}
+footer{
+    text-align: center;
+  padding-top: 50px;
+  border: 1px #000000 solid;
+  margin-top: 50px;
+  border-radius: 50px;
+    
+}
+.myname{
+    font-family: 'Roboto', sans-serif;  
+    font-size: 22px;
+}
