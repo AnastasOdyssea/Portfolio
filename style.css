@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
     background-image: linear-gradient(to right top, #54404b, #4d3b4a, #453649, #3b3248,
      #2f2e47, #333b55, #364862, #3a566e, #57798c, #799eaa, #9fc4c8, #c9eae8);
@@ -60,11 +63,28 @@ footer{
     text-align: center;
   padding-top: 50px;
   border: 1px #000000 solid;
+  box-shadow: 10px 5px 5px black;
   margin-top: 50px;
   border-radius: 50px;
+  margin-left: 0;
     
 }
 .myname{
     font-family: 'Roboto', sans-serif;  
     font-size: 22px;
+    
+}
+.contact{
+    height: 650px;
+    text-align: center;
+    
+    background-size: auto;
+  }
+  #name,#email,#submit{
+    width: 250px;
+    height: 30px;
+  }
+#textarea{
+    height: 200px;
+    width: 250px;
 }
