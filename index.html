@@ -7,36 +7,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-
     <title>Portfolio</title>
 </head>
+<!--Header-->
 
 <body>
-
     <header class="header">
         <ul class="nav">
             <li class="navitem"><a href="#aboutme">About me</a></li>
             <li class="navitem"> <a href="#projects">Projects</a></li>
             <li class="navitem"> <a href="/contact.html">Contact</a></li>
             <li class="navitem"><a href="#skills">Skills</a></li>
-
+            <div>
+                <input type="checkbox" class="checkbox" id="chk" />
+                <label class="label" for="chk">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                    <div class="ball"></div>
+                </label>
+            </div>
         </ul>
     </header>
+    <!--Main Section-->
     <main class="main">
-        <section class="aboutme">
+        <!--About me -->
+        <section class="aboutme" id="aboutme">
             <img src="1657629126573.jpg" alt="my picture">
-
-            <p>
+            <p class="introduction">
                 Hi ,my name is Anastas. <br>
-                I am a front-end developer based in London who likes learning new things <br>
-                about web development.My background is studies in automation engineering. <br>
-                I always liked to build things and programming so I decided to learn web development.</p>
+                I am a front-end developer based in London who loves learning new things <br>
+                about web development. I always involved myself into different activities <br>
+                building things.My background is studies in automation engineering, <br>
+                so that gave me an extra boost to learn web development.</p>
         </section>
-
+        <!--Projects Section-->
         <section class="projects" id="projects">
             <h2>Projects</h2>
+            <div class="alltheprojects" id="alltheprojects">
+                <div>Project</div>
+                <div>Project</div>
+                <div>Project</div>
+            </div>
         </section>
-
+        <!--Skills Section-->
         <section class="skills" id="skills">
             <div class="icons">
                 <h2>Skills</h2>
@@ -44,15 +57,15 @@
                 <i class="fab fa-css3 fa-3x"></i>
                 <i class="fab fa-js fa-3x"></i>
             </div>
-
+            <!--Tools Section-->
             <div class="tools">
                 <h2>Tools</h2>
                 <i class="fab fa-git fa-3x"></i>
             </div>
         </section>
     </main>
-    <footer>
 
+    <footer>
         <div class="icons">
             <a href="https://www.linkedin.com/in/anastas-odyssea-316659187/?originalSubdomain=uk">
                 <i class="fab fa-linkedin fa-2x f"></i>
@@ -68,7 +81,19 @@
     </footer>
 
 
-    <script src="https://kit.fontawesome.com/f34947545d.js" crossorigin="anonymous"></script>
+
+
+
+
+
+    <script src="https://kit.fontawesome.com/f34947545d.js" crossorigin="anonymous">
+
+
+
+    </script>
+    <script src="main.js">
+
+    </script>
 
 </body>
 
